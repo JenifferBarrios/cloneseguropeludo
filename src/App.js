@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import  GlobalStyle from './Style/GlobalStyle';
 
 function App() {
   return (
-    <div className="App">
-      
+    <div>
+      <h1>Clone Seguro Peludo</h1>
+      <GlobalStyle />
     </div>
   );
 }
