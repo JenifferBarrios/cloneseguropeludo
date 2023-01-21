@@ -1,12 +1,14 @@
 import './App.css';
 import React from 'react';
 import  GlobalStyle from './Style/GlobalStyle';
+import {Layout} from "./component/Layout";
 
 function App() {
   return (
     <div>
-      <h1>Clone Seguro Peludo</h1>
+      <Layout/>
       <GlobalStyle />
+      
     </div>
   );
 }
