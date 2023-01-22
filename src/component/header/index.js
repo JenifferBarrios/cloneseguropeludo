@@ -1,29 +1,30 @@
 import React, { useState } from 'react'
 import { NavContainer, Wrapper } from './style'
 import BurgerMenu from './BurgerMenu'
+import { BgDiv } from './style'
+
 const Header = () => {
-const [clicked,setClicked] = useState (false) 
-const handleClick = () => {
+  const [clicked,setClicked] = useState(false) 
+  const handleClick = () => {
     setClicked(!clicked) 
 }
 
   return (
     
     <NavContainer>
-      <Wrapper>
         <div className='burger-button'>
-          <BurgerMenu />
+          <BurgerMenu clicked={clicked} handleClick={handleClick}/>
         </div>
         <img src={require('../../imagenes/Grupo-968.png')} alt="Logo" />
-        <nav className={`links ${clicked ? 'active'  :  ''}`}>
-          <a href='/'>¿Por qué?</a>
-          <a href='/'>Nuestros Planes</a>
-          <a href='/'>¿Quieres mas info?</a>
-          <a href='/'>Club</a>
-          <a href='/'>Blog</a>
-          <a href='/'>Contáctanos</a>
-        </nav>
-      </Wrapper>
+        <div className={`links ${clicked ? 'active'  :  ''}`}>
+          <a href='/'className='nav-items dropdown'>¿Por qué?</a>
+          <a href='/'className ='nav-items dropdown'>Nuestros Planes</a>
+          <a href='/' className = 'nav-items dropdown'>¿Quieres mas info?</a>
+          <a href='/'className ='nav-items dropdown'>Club</a>
+          <a href='/'className='nav-items dropdown'>Blog</a>
+          <a href='/'className='nav-items dropdown'>Contáctanos</a>
+        </div>
+        <BgDiv className={`initial ${clicked ? ' active ' : ''}`}></BgDiv><BgDiv/>
     </NavContainer>
 
   )

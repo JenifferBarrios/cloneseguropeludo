@@ -2,11 +2,8 @@ import  styled  from "styled-components";
 
 export const NavContainer = styled.header`
     background-color: var(--fondo);
-
-`
-export const Wrapper = styled.nav`
     height:56px;
-    padding: 1vh;
+    padding: .4rem;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -28,48 +25,54 @@ export const Wrapper = styled.nav`
         margin-right:1rem;
 
     }
-    .links-nav{
+    .links{
     position: absolute;
     top: -700px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
         a{
-            color:black;
+            color:var(--blue1);
             font-size: 2rem;
             display: block;
         }
     @media(min-width:768px){
         position: initial;
         margin: 0;
-        a{
-            color: red;
-            font-size: 1rem;
+         a{
+            color: var(--blue1);
+            font-size: 1rem; 
             display: inline;
         }
-
-
     }
   }
-  .links-nav.active{
+  .links.active{
     width: 100%;
     display: block;
     position: absolute; 
     margin-left: auto;
     margin-right: auto;
-    top: 30%;
+    top: 10%;
     left: 0;
     right: 0;
-    text-align: center;
-  }
+    text-align: left;
+    
     a {
-        color:#333
+        color: var(--blue1);
+        font-size:15px;
+        border-bottom: 1px solid #eaeaea;
+        border-color: var(--grey1);
+        width:300px;
     }
+    a.nav-items.dropdown{
+      padding:10px 20px;
+    }
+  }
+    
   .burger-button{
     @media(min-width:768px) {
         display: none;
-    }
-    
+    }    
 }
 
 `
@@ -83,7 +86,7 @@ export const Burguer = styled.div`
     display: inline-block;
   }
   .nav-icon-8 span{
-    background-color:#123546;
+    background-color:var(--blue1);
     position: absolute;
     border-radius: 2px;
     transition: .3s cubic-bezier(.8, .5, .2, 1.4);
@@ -120,8 +123,15 @@ export const Burguer = styled.div`
   .nav-icon-8.open span:nth-child(3){
     top: 13px;
   }
-  
-  
+    
 `
-
+export const BgDiv = styled.div `
+  position:absolute;
+  background-color: var(--yellow1);
+  width: 80%;
+  height: 287px;
+  z-index:-1;
+  top:-700px;
+  left:-1000;
+`
 
