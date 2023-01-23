@@ -20,6 +20,7 @@ export default createGlobalStyle `
     --text-popular: #846e2d;
     --text-popular2:#c79300;
     --text-cotizar: #455a81;
+    --text-paragraf: #8e8e8e;
 
     --family-titlle:  apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --family-paragraph: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;

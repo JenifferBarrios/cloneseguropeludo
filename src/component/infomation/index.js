@@ -1,7 +1,9 @@
 import React from 'react'
 import {InformationPeludito} from "./style";
 import logoCatDog from "../../imagenes/logo-cat-dog.svg"
-const Information = () => {
+
+
+ const Information = () => {
   return (
     <InformationPeludito>
       <div className="information-container">
@@ -14,8 +16,6 @@ const Information = () => {
           <button className='btn-conocemas'>CONOCE MÁS</button>
         </section>
       </div>
-      
-      
     </InformationPeludito>
   )
 }
