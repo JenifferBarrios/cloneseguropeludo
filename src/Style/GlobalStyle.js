@@ -42,9 +42,8 @@ h1{
 
 }
 html{
-    min-heigth:100%;
-    bagtground-color: var(fondo)
+    min-height:100%;
+    background-color: var(fondo);
 }
 `
-
 

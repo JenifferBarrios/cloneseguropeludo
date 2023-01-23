@@ -61,8 +61,9 @@ export const InformationPeludito = styled.main`
         height: 45px;
         background-color: var(--yellow1);
         border-radius: 4px ;
-        box-shadow: 0  0 10px 0;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px 0px;
         border: none;
+
         ::placeholder{
             font-size:20px;
         }
