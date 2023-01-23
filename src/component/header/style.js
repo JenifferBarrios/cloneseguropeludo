@@ -1,4 +1,4 @@
-import  styled  from "styled-components";
+import styled from "styled-components";
 
 export const NavContainer = styled.header`
     background-color: var(--fondo);
@@ -7,7 +7,8 @@ export const NavContainer = styled.header`
     display:flex;
     align-items:center;
     justify-content:space-between;
-
+    position:fixed;
+    width:100%;
 
     img {
         height:23px;
@@ -22,7 +23,7 @@ export const NavContainer = styled.header`
         text-decoration:none;
         font-family:var(--family-titlle);
         font-weight:bold;
-        margin-right:1rem;
+        margin-right:3rem;
 
     }
     .links{
@@ -36,6 +37,26 @@ export const NavContainer = styled.header`
             font-size: 2rem;
             display: block;
         }
+      
+      button{
+      margin: 0 15px 0 8px;
+      padding: 2px 0px 6px;
+      border: 2px solid #0077b9;
+      border-radius: 30px;
+      opacity: 1;
+      font-size: 17px;
+      font-weight: bold;
+      text-align: center;
+      color: #058bcc;
+      background-color: white;
+      width:130px;   
+      text-align:color-interpolation-filters;
+      a {
+          margin: auto;
+          display:block;
+      }        
+    }
+      
     @media(min-width:768px){
         position: initial;
         margin: 0;
@@ -56,7 +77,7 @@ export const NavContainer = styled.header`
     left: 0;
     right: 0;
     text-align: left;
-    
+       
     a {
         color: var(--blue1);
         font-size:15px;
@@ -125,13 +146,11 @@ export const Burguer = styled.div`
   }
     
 `
-export const BgDiv = styled.div `
+export const BgDiv = styled.div`
   position:absolute;
-  background-color: var(--yellow1);
   width: 80%;
   height: 287px;
   z-index:-1;
   top:-700px;
   left:-1000;
 `
-

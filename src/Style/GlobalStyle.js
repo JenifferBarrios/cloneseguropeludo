@@ -21,8 +21,8 @@ export default createGlobalStyle `
     --text-popular2:#c79300;
     --text-cotizar: #455a81;
 
-    --family-titlle: sofia_pro_bold;
-    --family-paragraph: sofia_pro_regular;
+    --family-titlle:  apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --family-paragraph: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     --family-numbers: sofia_pro_light;
     --family-logo: Gotham_Rounded_Book
     --family-footer: sans-serif;
