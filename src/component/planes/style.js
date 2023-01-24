@@ -4,10 +4,10 @@ export const Sectionplans = styled.section`
     background-color: var(--fondo);
     width: 100%;
     height: 60rem;
+    display: block;
    
-
     .planes-seguro{
-        position:relative;
+        margin-top:100px;
     }
     
     
@@ -20,62 +20,64 @@ export const Sectionplans = styled.section`
     }
     p {
         font-family: var(--sofia_pro);
-        align-items:center;
+        text-align:center;
         font-size: 1.5rem;;
         color: var(--grey1);
-        margin: 20px 90px;
-        display: flex;
         font-weight: bold;
-        width: 100%;         
+        width: 100%;      
+        margin-top: 20px;   
 
     }
-    button {
-        display:block;
-        width: 665px;
-        height:37px;
-        background-color: var(--yellow1);
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px 0px;
-        border-radius: 8px;
-        border: none;
-        margin-left: 50vh;
-        margin-top: 2rem;
-        
-                
-    }
+    
+    .container-plans{
+    width:42%;
+    margin: auto;
+    margin-top:50px;
+
+ }
+ .service{
+    display: flex;
+    justify-content:space-around;
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    top:40vh;
+ }
     .veterinaria,.perrito ,.gatico{
         width: 180px;
-        height: 221px;
-        text-align: center;
-        margin-left: 17px;
-        
+        height: 220px;
+        text-align: center; 
+        border-radius: 15px 15px 0 0;
+    
     }
    figure {
         border-radius: 15px;
         border: 3px solid var(--blue2);
-        margin-left:25px;
+        margin: 8px;
+        text-align: center;
+        width:13vw;
     }
     figcaption{
         background-color: var(--blue2);
         color: white;
-        width: 200px;
+        width: 190px;
         height: 28px;
         text-align:center;
         border-radius: 0 0 8px 8px;
     }
-.container-plans{
-    position: absolute;
-    top: 20%;
-      
-    
-    }
-.service{
-    display: inline-flex;
-    justify-content:space-between;
-    margin-top: 150px;
-    margin-left: 20rem;
- 
 
-}
+
+ button {
+        display:block;
+        width:41.5vw;
+        height:37px;
+        background-color: var(--yellow1);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px 0px;
+        border-radius: 8px;
+        border: none;        
+        margin-top: 2rem;
+                    
+    }
 
 `
 

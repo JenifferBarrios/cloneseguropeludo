@@ -12,8 +12,9 @@ const Plans = () => {
         <p>Estar preparado es la mejor opción para proteger la vida de aquellos
           peluditos a los que tanto amamos</p>
         <div className='container-plans'>
-          <div className='service'>
-            <figure className='figure-one'>
+            <div className='service'>
+              <section>
+              <figure className='figure-one'>
               <img className='veterinaria' src={veterinaria} alt="veterinaria" />
               <figcaption>Atención Veterinaria</figcaption>
             </figure>
@@ -24,9 +25,10 @@ const Plans = () => {
             <figure>
               <img className='gatico' src={gatico} alt="gatico" />
               <figcaption>Servicios Funerarios</figcaption>
-            </figure>
-          </div>
+            </figure>          
           <button>VEAMOS LOS PLANES</button>
+              </section>
+              </div>
         </div>
       </section>
     </Sectionplans>
