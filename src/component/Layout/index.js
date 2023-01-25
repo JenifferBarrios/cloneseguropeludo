@@ -3,8 +3,8 @@ import  Header from "../header/index";
 import Information  from "../infomation/index";
 import Footer from '../footer/index'
 import {Container,Wrapper}  from './styles';
-import Planes from '../service'
-import { DiferentPlanes } from '../plans/style';
+import Planes from '../plans/index'
+import Service from '../service/index';
 
 export const Layout = () => {
     return (
@@ -12,8 +12,8 @@ export const Layout = () => {
             <Wrapper>
                 <Header/>
                 <Information/>
-                <Planes/>
-                <DiferentPlanes />
+                <Service />
+                <Planes/>                
                 <Footer/>
             </Wrapper>
         </Container>

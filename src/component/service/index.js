@@ -12,7 +12,7 @@ const Service = () => {
         <p>Estar preparado es la mejor opción para proteger la vida de aquellos
           peluditos a los que tanto amamos</p>
         <div className='container-plans'>
-        <section className='background-img'>Shades of Purple
+        <section>
           <div className='service'>
             <figure className='figure-one'>
                 <img className='veterinaria' src={veterinaria} alt="veterinaria" />

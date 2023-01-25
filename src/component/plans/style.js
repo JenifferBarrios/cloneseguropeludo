@@ -1,16 +1,25 @@
 import styled from 'styled-components';
 
-
-
-export const DiferentPlanes = styled.section`
-    background-color: red;
+export const Containerplanes = styled.section`
+    background-color: var(--blue2);
     height: 60rem;
     width: 100%;
-
     h1{
-        color: red;
+        color: black;
+        font-family: var(--title);
+        font-size: 30px;
+        
+    .nuestros-planes{
+        
     }
-`
+    p {
+        color: black;
+
+    }
+    }
+    
+    
+`   
 
 
 
