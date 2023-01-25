@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import fondo from "../../imagenes/fondo-transp.png";
 
 export const Sectionplans = styled.section`
     background-color: var(--fondo);
@@ -65,8 +66,6 @@ export const Sectionplans = styled.section`
         text-align:center;
         border-radius: 0 0 8px 8px;
     }
-
-
  button {
         display:block;
         width:41.5vw;
@@ -78,7 +77,22 @@ export const Sectionplans = styled.section`
         margin-top: 2rem;
                     
     }
+.background-img {
+    background: linear-gradient( 0deg, #fff 55%, #efefef 55%, #efefef 85%, #ffff 85% );
+    position: relative;
 
+}
+section.background-img::before{
+    background-image: url(${fondo});
+    background-size: 150px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    opacity: 1;
+}
 `
 
 
