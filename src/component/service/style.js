@@ -4,7 +4,7 @@ import fondo from "../../imagenes/fondo-transp.png";
 export const Sectionplans = styled.section`
     background-color: var(--fondo);
     width: 100%;
-    height: 60rem;
+    height: 40rem;
     display: block;
    
     .planes-seguro{
