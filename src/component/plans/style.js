@@ -59,7 +59,7 @@ article{
     font-weight: bold;
     font-size: 1.5em;
     background-color: var(--blue3);
-    color: var(--fondo);
+    color: black;
 
 }
 .table-item {
