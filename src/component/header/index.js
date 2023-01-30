@@ -22,7 +22,7 @@ const Header = () => {
         <a href='/' className='nav-items dropdown'>¿Quieres mas info?</a>
         <a href='/' className='nav-items dropdown'>Club</a>
         <a href='/' className='nav-items dropdown'>Blog</a>
-        <button id='concactenos'><a href='/' className='nav-items dropdown' >Contáctanos</a></button>
+        <button id='contactenos'><a href='/' className='nav-items dropdown' >Contáctanos</a></button>
       </div>
       <BgDiv className={`initial ${clicked ? ' active ' : ''}`}></BgDiv><BgDiv />
     </NavContainer>
