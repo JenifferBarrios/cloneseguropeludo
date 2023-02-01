@@ -38,9 +38,9 @@ export const NavContainer = styled.header`
             display: block;
         }
       
-      button{
+      a#contactenos {
       margin: 0 15px 0 8px;
-      padding: 2px 0px 6px;
+      padding: 4px 15px 4px;
       border: 2px solid #0077b9;
       border-radius: 30px;
       opacity: 1;
@@ -50,7 +50,7 @@ export const NavContainer = styled.header`
       color: #058bcc;
       background-color: white;
       width:130px;   
-      text-align:color-interpolation-filters;
+      /* text-align:color-interpolation-filters; */
       a {
           margin: auto;
           display:block;
@@ -66,6 +66,9 @@ export const NavContainer = styled.header`
             font-size: 1rem; 
             display: inline;
         }
+        a#contactenos{
+          border: none;
+        }
             
     }
   }
@@ -75,10 +78,11 @@ export const NavContainer = styled.header`
     position: absolute; 
     margin-left: auto;
     margin-right: auto;
-    top: 10%;
+    top: 90%;
     left: 0;
     right: 0;
     text-align: left;
+    
        
     a {
         color: var(--blue1);
@@ -86,6 +90,7 @@ export const NavContainer = styled.header`
         border-bottom: 1px solid #eaeaea;
         border-color: var(--grey1);
         width:300px;
+        background-color:var(--fondo)
     }
     a.nav-items.dropdown{
       padding:10px 20px;
@@ -94,12 +99,9 @@ export const NavContainer = styled.header`
     
   .burger-button{
     @media(min-width:950px) {
-      display: none;         
-     
-    } 
-    
+      display: none;      
+    }     
 }
-
 `
 export const Burguer = styled.div`
 .nav-icon-8{
@@ -157,7 +159,5 @@ export const BgDiv = styled.div`
   z-index:-1;
   top:-700px;
   left:-1000;
-
-
 
 `

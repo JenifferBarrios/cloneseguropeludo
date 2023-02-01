@@ -15,6 +15,7 @@ const Header = () => {
       <div className='burger-button'>
         <BurgerMenu clicked={clicked} handleClick={handleClick} />
       </div>
+      <BgDiv className={`initial ${clicked ? 'active' : ''}`}></BgDiv>
       <img src={require('../../imagenes/Grupo-968.png')} alt="Logo" />
       <div className={`links ${clicked ? 'active' : ''}`}>
         <a href='/' className='nav-items dropdown'>¿Por qué?</a>
@@ -22,9 +23,9 @@ const Header = () => {
         <a href='/' className='nav-items dropdown'>¿Quieres mas info?</a>
         <a href='/' className='nav-items dropdown'>Club</a>
         <a href='/' className='nav-items dropdown'>Blog</a>
-        <button id='contactenos'><a href='/' className='nav-items dropdown' >Contáctanos</a></button>
+        <a href='/' className='nav-items dropdown' id='contactenos'>Contáctanos</a>
       </div>
-      <BgDiv className={`initial ${clicked ? ' active ' : ''}`}></BgDiv><BgDiv />
+      
     </NavContainer>
 
   )
