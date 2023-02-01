@@ -2,12 +2,14 @@ import React from 'react'
 import veterinaria from "../../imagenes/veterinaria.png";
 import perritos from "../../imagenes/Peluditos_Cachorros_2.png";
 import gatico from "../../imagenes/angel_gato.png";
+import peluditos from '../imagenes/peluditos.png';
 import { Sectionplans } from './style';
 
 const Service = () => {
   return (
     <Sectionplans>
-      <section className='planes-seguro'>
+    <section className='pc-view'>
+      <article className='planes-seguro'>
         <h1> ¿Por qué Seguro Peludo? </h1>
         <p>Estar preparado es la mejor opción para proteger la vida de aquellos
           peluditos a los que tanto amamos</p>
@@ -27,9 +29,31 @@ const Service = () => {
                 <figcaption>Servicios Funerarios</figcaption>
               </figure>
               </div>
-              <button>VEAMOS LOS PLANES</button>
-              
+              <button>VEAMOS LOS PLANES</button>              
             </section>          
+        </div>
+      </article>
+      </section>
+      <section className='mobil-view'>
+        <figure>
+          <img className='animalitos' src={peluditos} alt="peluditos"/>
+        </figure>
+        <h2>¿Por qué un Seguro para Mascotas?</h2>
+        <p>Estar preparado es la mejor opción para proteger
+         la vida de aquellos peluditos a los que tanto amamos</p>
+        <div>
+          <figure>
+            <img className='icono-one'/>
+            <figcaption>Atención Veterinaria</figcaption>
+          </figure>
+          <figure>
+            <img className='icono-two'/>
+            <figcaption>Gastos Médicos</figcaption>
+          </figure>
+          <figure>
+            <img className='icono-three'/>
+            <figcaption> Servicios Funerarios</figcaption>
+          </figure>
         </div>
       </section>
     </Sectionplans>
