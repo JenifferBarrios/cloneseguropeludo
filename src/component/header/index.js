@@ -16,7 +16,7 @@ const Header = () => {
         <BurgerMenu clicked={clicked} handleClick={handleClick} />
       </div>
       <BgDiv className={`initial ${clicked ? 'active' : ''}`}></BgDiv>
-      <img src={require('../../imagenes/Grupo-968.png')} alt="Logo" />
+      <img src={require('../../imagenes/Grupo-968.png')} alt="Logo"  className='logo'/>
       <div className={`links ${clicked ? 'active' : ''}`}>
         <a href='/' className='nav-items dropdown'>¿Por qué?</a>
         <a href='/' className='nav-items dropdown'>Nuestros Planes</a>

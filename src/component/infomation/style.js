@@ -4,10 +4,12 @@ import catDog from "../../imagenes/seguro-mascotas.jpg";
 export const InformationPeludito = styled.main`
     background-image: linear-gradient( to top, #005684e0 0%, #006da88c 40%, #0083ca21 60%, #008ad400 100% ),
     url(${catDog});
-    height:60rem;
+    height:45rem;
     background-size:cover;
     background-position:center;
     width: 100%;
+    background-position-y: 9vh;
+    display:flex;
    
     
     div.information-container{

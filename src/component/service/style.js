@@ -10,8 +10,7 @@ export const Sectionplans = styled.section`
     .planes-seguro{
         margin-top:100px;
     }
-    
-    
+        
     h1{
         font-family: var( --family-title);
         font-size: 36px;
@@ -27,7 +26,6 @@ export const Sectionplans = styled.section`
         font-weight: bold;
         width: 100%;      
         margin-top: 20px;   
-
     }
     
     .container-plans{

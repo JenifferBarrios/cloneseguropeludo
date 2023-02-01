@@ -15,7 +15,6 @@ export const NavContainer = styled.header`
         width:110px;
         justify-content: flex-start;
         margin-left:16px;
-
     }
 
     a {
@@ -50,7 +49,7 @@ export const NavContainer = styled.header`
       color: #058bcc;
       background-color: white;
       width:130px;   
-      /* text-align:color-interpolation-filters; */
+      
       a {
           margin: auto;
           display:block;
@@ -58,19 +57,15 @@ export const NavContainer = styled.header`
     }
       
     @media(min-width:950px){
-      
         position: initial;
         margin: 0;
          a{
             color: var(--blue1);
             font-size: 1rem; 
             display: inline;
-        }
-        a#contactenos{
-          border: none;
-        }
-            
+        }              
     }
+  
   }
   .links.active{
     width: 100%;
@@ -82,8 +77,7 @@ export const NavContainer = styled.header`
     left: 0;
     right: 0;
     text-align: left;
-    
-       
+           
     a {
         color: var(--blue1);
         font-size:15px;
@@ -95,12 +89,21 @@ export const NavContainer = styled.header`
     a.nav-items.dropdown{
       padding:10px 20px;
     }
+    a#contactenos {
+      border-radius:0px;
+      width:300px;
+      border: 0px solid #eaeaea;
+      margin: 0px;
+      padding: 10px 20px;
+      text-align: left;
+    }
+  
   }
     
   .burger-button{
     @media(min-width:950px) {
       display: none;      
-    }     
+    }  
 }
 `
 export const Burguer = styled.div`
