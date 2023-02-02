@@ -72,5 +72,6 @@ export const InformationPeludito = styled.main`
     
     }
     
+    
 
 `

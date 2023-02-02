@@ -91,7 +91,18 @@ section.background-img::before{
     position: absolute;
     opacity: 1;
 }
-
+section.mobil-view {
+     display: none; 
+}
+@media (max-width:768px) {
+    section.pc-view{
+        display: none;
+    }
+    section.mobil-view{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 `
