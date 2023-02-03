@@ -38,26 +38,26 @@ const Service = () => {
       </article>
       </section>
       <section className='mobil-view'>
-        <figure>
+        <div className='animalitosPequeños'>
           <img className='animalitos' src={peluditos} alt="peluditos"/>
-        </figure>
-        <h2>¿Por qué un Seguro para Mascotas?</h2>
-        <p>Estar preparado es la mejor opción para proteger
+        </div>
+        <h2 className='title-mobile'>¿Por qué un Seguro para Mascotas?</h2>
+        <p className='parr-mobil'>Estar preparado es la mejor opción para proteger
          la vida de aquellos peluditos a los que tanto amamos</p>
         <div>
           <article>
-          <figure>
+          <div className='primericono'>
             <img className='icono-one' src={atencionVeterinaria} alt="icono-one"/>
-            <figcaption>Atención Veterinaria</figcaption>
-          </figure>
-          <figure>
+            <p className='parr-icono-one'>Atención Veterinaria</p>
+          </div>
+          <div className='segundoicono'>
             <img className='icono-two' src={costosMedicos} alt="icono-two"/>
-            <figcaption>Gastos Médicos</figcaption>
-          </figure>
-          <figure>
+            <p className='parr-icono-two'>Gastos Médicos</p>
+          </div>
+          <div className='tercericono'>
             <img className='icono-three' src={funerarios} alt="icono-three"/>
-            <figcaption> Servicios Funerarios</figcaption>
-          </figure>
+            <p className='parr-icono-three'> Servicios Funerarios</p>
+          </div>
           </article>          
         </div>
       </section>

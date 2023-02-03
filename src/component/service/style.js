@@ -101,9 +101,46 @@ section.mobil-view {
     section.mobil-view{
         display: flex;
         flex-direction: column;
-    }
-}
+        
+        .animalitosPequeños{
+        display:grid;
+        place-items: center;
+        width:100%;
+        }    
+        .animalitos{
+        /* width:356px; */
+        height: 30vw;
+        align-items:center;
+        border-radius: 0px;
+         }   
+        .title-mobile{
+            color: var(--blue2);
+            font-size: 3.5vh;
+            text-align: center;
 
+        }   
+        .parr-mobil{
+            font-size: 1rem;
+            color: var(--grey1);
+            font-weight:600;
+            text-align: center;
+            font-family: var(--sofia_pro);
+            width: 80%;      
+            margin-top: 40px;
+            
+        } 
+        .icono-two,.icono-one,.icono-three{
+            align-items:center;
+            justify-items:center;
+        }
+        .parr-icono-one, .parr-icono-two, .parr-icono-three{
+            color:red;
+            font-size: 0.5rem
+        }
+
+    }
+   
+}
 
 `
 
