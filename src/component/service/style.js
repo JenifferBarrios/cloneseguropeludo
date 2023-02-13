@@ -137,6 +137,31 @@ section.mobil-view {
             color:red;
             font-size: 0.5rem
         }
+        .set-iconos{
+
+        }
+        .div-icononos{
+           height:20vh;
+           display: flex; 
+           flex-wrap: wrap;
+           justify-content: center;
+            figure {
+                display: flex;
+                align-items: center;
+                margin-top:45px;
+                border: none;
+                position: relative;
+                flex-direction: column;
+            
+            figcaption {
+                display: block;
+                font-size: 1rem;
+                background-color: var(--fondo);
+                width: auto; 
+                height:auto;
+            }
+            }
+        }
 
     }
    
